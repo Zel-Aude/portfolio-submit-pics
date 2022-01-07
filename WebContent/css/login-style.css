@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.login-space {
+  display: flex;
+  padding-top: 30px;
+}
+
+section {
+  width: 230px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.user {
+  background-color: #4169e1;
+  color: #fff;
+}
+
+.admin {
+  background-color: #000000;
+  color: #ff0000;
+}

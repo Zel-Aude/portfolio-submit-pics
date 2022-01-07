@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+
+  <servlet>
+    <servlet-name>ExecuteAdminLogin</servlet-name>
+    <servlet-class>controller.ExecuteAdminLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ExecuteAdminLogin</servlet-name>
+    <url-pattern>/ExecuteAdminLogin</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ExecuteAdminLogout</servlet-name>
+    <servlet-class>controller.ExecuteAdminLogout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ExecuteAdminLogout</servlet-name>
+    <url-pattern>/ExecuteAdminLogout</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ExecuteNewRegistration</servlet-name>
+    <servlet-class>controller.ExecuteNewRegistration</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ExecuteNewRegistration</servlet-name>
+    <url-pattern>/ExecuteNewRegistration</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ExecuteUserDelete</servlet-name>
+    <servlet-class>controller.ExecuteUserDelete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ExecuteUserDelete</servlet-name>
+    <url-pattern>/ExecuteUserDelete</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ExecuteUserLogin</servlet-name>
+    <servlet-class>controller.ExecuteUserLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ExecuteUserLogin</servlet-name>
+    <url-pattern>/ExecuteUserLogin</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SelectPicture</servlet-name>
+    <servlet-class>controller.SelectPicture</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SelectPicture</servlet-name>
+    <url-pattern>/SelectPicture</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ExecuteSelectPicture</servlet-name>
+    <servlet-class>controller.ExecuteSelectPicture</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ExecuteSelectPicture</servlet-name>
+    <url-pattern>/ExecuteSelectPicture</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ExecuteUserLogout</servlet-name>
+    <servlet-class>controller.ExecuteUserLogout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ExecuteUserLogout</servlet-name>
+    <url-pattern>/ExecuteUserLogout</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Home</servlet-name>
+    <servlet-class>controller.Home</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Home</servlet-name>
+    <url-pattern>/Home</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>NewRegistration</servlet-name>
+    <servlet-class>controller.NewRegistration</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NewRegistration</servlet-name>
+    <url-pattern>/NewRegistration</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>UserLogin</servlet-name>
+    <servlet-class>controller.UserLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserLogin</servlet-name>
+    <url-pattern>/UserLogin</url-pattern>
+  </servlet-mapping>
+
+</web-app>

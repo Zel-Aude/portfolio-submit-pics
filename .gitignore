@@ -1,0 +1,6 @@
+build/
+WebContent/pictures/
+src/test/ConnectDbTest*.java
+src/test/PageProcessTest.java
+src/test/PathTest.java
+src/test/UserInfoDao*.java

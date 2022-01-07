@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+header {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+body {
+  background-color: #000000;
+  color: #fff;
+}
+
+.user-list {
+  border-collapse: collapse;
+  border: solid 1px #fff;
+  margin: 0 auto;
+}
+
+.user-list th {
+  border: solid 1px #fff;
+  padding: 0px 10px;
+  height: 35px;
+}
+
+.user-list td {
+  border: solid 1px #fff;
+  padding: 0px 10px;
+  height: 35px;
+  text-align: center;
+}
+
+#user-name {
+  width: 150px;
+}
+
+.delete-btn {
+  text-align: center;
+}
+
+.delete-btn input {
+  margin: 15px 20px 0px;
+}
+
+.page-list {
+  text-align: center;
+  padding-left: 0;
+}
+
+.page-list li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 7px;
+}
+
+.page-list a {
+  color: #ffd700;
+}
+
+.no-data,.login-space {
+  text-align: center;
+}
