@@ -11,9 +11,9 @@ public class ShowPictureBusinessLogic {
 
 	private enum DefaultPictures {
 
-		PICTURE_1("pictures/フロスト.jpg"),
-		PICTURE_2("pictures/空 02.jpg"),
-		PICTURE_3("pictures/木星.jpg");
+		PICTURE_1("pictures/photo0000-0715.jpg"),
+		PICTURE_2("pictures/photo0000-2561.jpg"),
+		PICTURE_3("pictures/photo0000-3847.jpg");
 
 		private final String pictureName;
 

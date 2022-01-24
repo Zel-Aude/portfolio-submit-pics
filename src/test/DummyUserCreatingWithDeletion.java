@@ -30,10 +30,7 @@ public class DummyUserCreatingWithDeletion {
 	private static final String PICTURES_DIR_PATH_STRING =
 			"C:\\pleiades\\workspace\\portfolio_submit_pics\\WebContent\\pictures";
 
-	private static final String DESKTOP2_PATH_STRING =
-			"C:\\Users\\sisk ques\\Pictures\\デスクトップ用２";
-
-	private static final String PICTURE_FOR_COPY = "ACE6 ロゴ.jpg";
+	private static final String PICTURE_FOR_COPY = "photo0000-6691.jpg";
 
 	public static void main(String[] args) {
 
@@ -192,7 +189,7 @@ public class DummyUserCreatingWithDeletion {
 	private static void pictureFileCopy(String userId) {
 
 		try {
-			Path srcFile  = Paths.get(DESKTOP2_PATH_STRING, PICTURE_FOR_COPY);
+			Path srcFile  = Paths.get(PICTURES_DIR_PATH_STRING, PICTURE_FOR_COPY);
 			Path copyFile = Paths.get(PICTURES_DIR_PATH_STRING, userId, PICTURE_FOR_COPY);
 
 			if(Files.exists(srcFile)) {

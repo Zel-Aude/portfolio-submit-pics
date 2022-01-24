@@ -31,17 +31,17 @@
   <div class="brank-space"></div><%--ヘッダー分の余白--%>
   <section id="menu1" class="menus menu1">
     <div class="item1">
-      <img src="pictures/ナスカの地上絵.jpg">
+      <img src="pictures/photo0000-6308.jpg">
     </div>
   </section><%-- /#menu1.menus --%>
   <section id="menu2" class="menus menu2">
     <div class="item2">
-      <img src="pictures/銀河.jpg">
+      <img src="pictures/photo0000-4036.jpg">
     </div>
   </section><%-- /#menu2.menus --%>
   <section id="menu3" class="menus menu3">
     <div class="item3">
-      <img src="pictures/メテオラの景色.jpg">
+      <img src="pictures/photo0000-6271.jpg">
     </div>
   </section><%-- /#menu3.menus --%>
   <footer>
