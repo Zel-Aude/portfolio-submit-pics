@@ -28,7 +28,7 @@ public class DummyUserCreatingWithDeletion {
 	private static final String TEST_PASS_WORD = "b7r8492"; // 登録パスワード
 
 	private static final String PICTURES_DIR_PATH_STRING =
-			"C:\\pleiades\\workspace\\portfolio_submit_pics\\WebContent\\pictures";
+			"C:\\pleiades\\2022-06\\workspace\\portfolio-submit-pics\\WebContent\\pictures";
 
 	private static final String PICTURE_FOR_COPY = "photo0000-6691.jpg";
 

@@ -10,7 +10,7 @@ import java.nio.file.Paths;
 public enum PathConfig {
 
 	//picturesディレクトリの相対パス文字列
-	PICTURES_DIR_PATH("..\\workspace\\portfolio_submit_pics\\WebContent\\pictures") {
+	PICTURES_DIR_PATH("..\\workspace\\portfolio-submit-pics\\WebContent\\pictures") {
 		@Override
 		public Path getPath() {
 			return Paths.get(PICTURES_DIR_PATH.toString());

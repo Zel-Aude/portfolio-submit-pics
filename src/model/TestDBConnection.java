@@ -15,7 +15,7 @@ public final class TestDBConnection {
 		DRIVER_NAME("com.mysql.cj.jdbc.Driver"),
 		//接続先のデータベース（「test_db」でない場合は該当の箇所を変更）
 		JDBC_URL(
-				"jdbc:mysql://localhost/test_db?characterEncoding=UTF-8&serverTimezone=JST"
+				"jdbc:mysql://localhost/test_db?characterEncoding=UTF-8&allowPublicKeyRetrieval=true"
 				+ "&useSSL=false"),
 		//接続するユーザー名（「test_user」でない場合は該当の箇所を変更）
 		USER_ID("test_user"),
