@@ -9,8 +9,8 @@ import java.nio.file.Paths;
  */
 public enum PathConfig {
 
-	//picturesディレクトリの相対パス文字列
-	PICTURES_DIR_PATH("..\\workspace\\portfolio-submit-pics\\WebContent\\pictures") {
+	//picturesディレクトリの絶対パス文字列
+	PICTURES_DIR_PATH("/opt/apache-tomcat-9.0.65/webapps/portfolio-submit-pics/pictures") {
 		@Override
 		public Path getPath() {
 			return Paths.get(PICTURES_DIR_PATH.toString());

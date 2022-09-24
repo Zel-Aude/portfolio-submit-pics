@@ -81,12 +81,12 @@ public class ExecuteSelectPicture extends HttpServlet {
 			if(countWithSizeIsMaxUnderIs(parts)) {
 
 				Path userPath          = PathConfig.PICTURES_DIR_PATH.getPath().resolve(userId);
-				Path userAbsolutePath = userPath.toRealPath();
+//				Path userAbsolutePath = userPath.toRealPath();
 
 				for(Part part : parts) {
 
 					String fileName      = part.getSubmittedFileName();
-					String uploadPicture = userAbsolutePath.resolve(fileName).toString();
+					String uploadPicture = userPath.resolve(fileName).toString();
 
 					part.write(uploadPicture);
 					upPictureList.add(uploadPicture);
